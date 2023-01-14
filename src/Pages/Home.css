@@ -1,0 +1,119 @@
+.google__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+.home__header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1rem;
+    padding: 10px 20px;
+    justify-content: flex-end;
+}
+
+.home__header .MuiSvgIcon-root {
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+}
+
+.home__header .MuiSvgIcon-root:last-child {
+    font-size: 35px;
+}
+
+.home__header a {
+    color: black;
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 100%;
+    /* padding: 10px; */
+}
+
+footer .footer__upper,
+footer .footer__bottom {
+    padding: 14px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgba(0, 0, 0, 0.70);
+    font-size: medium;
+}
+
+footer .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom a {
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.footer__bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer__bottom .footer__left,
+.footer__bottom .footer__right {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:450px) {
+    .language {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 10px;
+    }
+
+    footer .footer__upper,
+    footer .footer__bottom {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    footer .footer__bottom {
+        flex-direction: column;
+    }
+
+    .footer__bottom .footer__left,
+    .footer__bottom .footer__right {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:451px) and (max-width:700px) {
+    .language {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 10px;
+    }
+
+    .footer__bottom .footer__left,
+    .footer__bottom .footer__right {
+        justify-content: center;
+    }
+
+    footer .footer__upper,
+    footer .footer__bottom {
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+
+    footer .footer__bottom {
+        flex-direction: column;
+    }
+
+
+
+}

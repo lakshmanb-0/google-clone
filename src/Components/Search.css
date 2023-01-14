@@ -1,0 +1,65 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.search .search__box {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 25px;
+    padding: 22px 20px;
+    margin: 30px 0;
+    height: 34px;
+    max-width: 600px;
+    width: 75vw;
+    color: rgba(0, 0, 0, 0.30);
+}
+
+.search__box:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.20);
+}
+
+.search__box .MuiSvgIcon-root:last-child {
+    color: rgb(0, 170, 255);
+}
+
+.search input {
+    flex: 1;
+    padding: 5px 10px;
+    outline: 0;
+    font-size: medium;
+    border: none;
+}
+.Buttons button{
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-right: 10px;
+    text-transform: inherit;
+    color: rgba(0, 0, 0, 0.90);
+    border: 1px solid white;
+}
+.Buttons button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.language{
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.90) ;
+}
+.language a{
+    margin-left: 10px;
+    color: #1a0dab;
+}
+.language a:hover{
+    text-decoration: underline;
+}
+.open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
